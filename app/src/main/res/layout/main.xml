@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000">
+
+    <LinearLayout android:id="@+id/cardboard_view" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100" android:background="#000000">
+        <WebView android:id="@+id/web_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50" android:background="#333333"></WebView>
+        <WebView android:id="@+id/web_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50" android:background="#333333"></WebView>
+    </LinearLayout>
+
+</LinearLayout>
